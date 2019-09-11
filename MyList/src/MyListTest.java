@@ -1,7 +1,7 @@
 public class MyListTest {
     public static void main(String[] args) throws IndexOutOfBoundsException{
         MyList<Integer> listInteger = new MyList<Integer>();
-        try {
+
 
             listInteger.add(1);
             listInteger.add(2);
@@ -17,9 +17,7 @@ public class MyListTest {
             listInteger.get(-1);
             System.out.println("element -1: "+ listInteger.get(-1));
         }
-        catch (IndexOutOfBoundsException e) {
-            System.out.println("index vuot so size cua Mang");
-        }
+
 
     }
-}
+
